@@ -1,0 +1,127 @@
+.nav-section{
+    box-shadow:  1px 3px 8px rgb(0 0 0 / 25%);
+    padding: 15px 0;
+}
+.nav-logo{
+    height: 50px;
+    width: 200px;
+    margin-left: 70px;
+}
+.nav-section-half{
+    margin-right: 70px;
+}
+.nav-section-half ul li{
+    padding: 5px 25px;
+    font-size: 18px;
+}
+.btn{
+    background-color: #102F53;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color:#195ba7;
+    color: white;
+}
+.carosuel-section{
+    margin-top:90px ;
+    margin-left: 100px;
+}
+.carosoul-first-half p{
+    margin-top: 20px;
+    padding:10px 5px ;
+    font-size: 40px;
+    font-weight: bold;
+    color: #102F53;
+}
+.carosoul-first-half h6{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.carosoul-second-half{
+    height: 500px;
+    width: 700px;
+}
+.heading{
+    text-align: center;
+    color: #102F53;
+    margin:60px 0 ;
+}
+.smanager-img{
+    height: 200px;
+    width: 250px;
+}
+.card-title{
+    padding: 17px;
+    color: #102F53;
+font-weight: bold;  
+}
+.card-bg{
+    background-color: rgba(248, 239, 239, 0.63);
+    border: none;
+}
+.smanager-user{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.smanager-user h2{
+    color: #102F53;
+ }
+.smanager-user-detail h2{
+margin-left: 100px;
+margin-top: 100px;
+color: white;
+}
+.smanager-user-detail p{
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+}
+.partner-img{
+    height: 100px;
+    width: 150px;
+}
+.footer-section{
+    height: 400px;
+    background-color: #102F53;;
+}
+.footer-first-link{
+font-size:20px ;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+.footer-first-link a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+.footer-link{
+    border-bottom: 1px solid rgba(201, 186, 186, 0.514);
+}
+.footer-second-link{
+    margin-top: 50px;
+}
+.footer-second-link img{
+padding: 0 10px;
+}
+.footer-second-section{
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(201, 186, 186, 0.514);
+  }
+.col-md-3 ul li{
+    list-style: none;
+    color:  rgba(255, 255, 255, 0.6);
+}
+.col-md-3 ul a{
+text-decoration: none;
+}
+.col-md-3 h5{
+    color: white;
+}
+.footer-third-section{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
