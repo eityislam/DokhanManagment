@@ -1,277 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dokan Management</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokan Management</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <header >
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top nav-section">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img class="img-fluid nav-logo" src="images/logo/dokan-manager.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex justify-content-end nav-section-half" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">ফিচার</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">প্যাকেজ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">লগইন</a>
-              </li>
-              <button class="btn">ফ্রি ট্রায়াল</button>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    বাংলা
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid nav-logo" src="images/logo/dokan-manager.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end nav-section-half" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ফিচার</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">প্যাকেজ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">লগইন</a>
+            </li>
+            <button class="btn">ফ্রি ট্রায়াল</button>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                বাংলা
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">বাংলা</a></li>
+                <li><a class="dropdown-item" href="#">Englis</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
-   </header> 
-
-   <div class="carosuel-section">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <div class="row">
-                  <div class="col-md-6 carosoul-first-half ">
-                    <p>আমরা আছি আপনারই মত  
-                        ৩,০০,০০০+ ব্যবসা প্রতিষ্ঠানের এগিয়ে যাওয়ার সাথে</p> 
-                        <h6>ব্যবসা বাড়বে এবার sManager ওয়ান পয়েন্ট বিজনেস সল্যুশন অ্যাপ-এ</h6> 
-                     <button class="btn">ফ্রি রেজিষ্ট্রেশন</button>
- 
-                  </div>
-                  <div class="col-md-6 carosoul-second-half">
-                    <img src="images/carosoul/carosoul-1.jpg" class="d-block w-100 img-fluid" alt="...">
-                     </div>
-                 </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-                <div class="col-md-6 carosoul-first-half">
-                    <p>ব্যবসা বাড়াতে সহজ লোন
-                        তাই টেনশন কম ব্যবসা বেশি</p> 
-                        <h6>কম সময়ে, কম সুদে সহজ শর্তে লোন</h6> 
-                     <button class="btn">ফ্রি রেজিষ্ট্রেশন</button>
-                </div>
-                <div class="col-md-6 carosoul-second-half">
-                  <img src="images/carosoul/carosoul-2.jpg" class="d-block w-100 img-fluid" alt="...">
-                   </div>
-               </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-                <div class="col-md-6 carosoul-first-half">
-                    <p>প্রতিদিনের ব্যবসার হিসাব রাখুন
-                        একদম ফ্রি sManager অ্যাপ-এ ‘বেচা-বিক্রি’ থেকে</p> 
-                        <h6>পুরো ব্যবসা এখন আপনার হাতের মুঠোয়</h6> 
-                     <button class="btn">ফ্রি রেজিষ্ট্রেশন</button>
-                </div>
-                <div class="col-md-6 carosoul-second-half">
-                  <img src="images/carosoul/carosoul-3.jpg" class="d-block w-100 img-fluid" alt="...">
-                   </div>
-               </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
       </div>
-   </div>
+    </nav>
+  </header>
 
-   <div class="container">
-       <h2 class="heading">sManager কেন?</h2>
-       <div class="row">
-           <div class="col-md-12">
-               <img class="img-fluid" src="images/head.png" alt="">
-           </div>
-       </div>
-       <div class="row">
-        <div class="col-md-3">
-          <img class="img-fluid smanager-img" src="images/sold.png" alt="">  
+  <div class="carosuel-section">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-6 carosoul-first-half ">
+              <p>আমরা আছি আপনারই মত
+                ৩,০০,০০০+ ব্যবসা প্রতিষ্ঠানের এগিয়ে যাওয়ার সাথে</p>
+              <h6>ব্যবসা বাড়বে এবার sManager ওয়ান পয়েন্ট বিজনেস সল্যুশন অ্যাপ-এ</h6>
+              <button class="btn">ফ্রি রেজিষ্ট্রেশন</button>
+
+            </div>
+            <div class="col-md-6 carosoul-second-half">
+              <img src="images/carosoul/carosoul-1.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-            <img class="img-fluid smanager-img" src="images/collection.png" alt="">
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6 carosoul-first-half">
+              <p>ব্যবসা বাড়াতে সহজ লোন
+                তাই টেনশন কম ব্যবসা বেশি</p>
+              <h6>কম সময়ে, কম সুদে সহজ শর্তে লোন</h6>
+              <button class="btn">ফ্রি রেজিষ্ট্রেশন</button>
+            </div>
+            <div class="col-md-6 carosoul-second-half">
+              <img src="images/carosoul/carosoul-2.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-            <img class="img-fluid smanager-img" src="images/loan.png" alt="">
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6 carosoul-first-half">
+              <p>প্রতিদিনের ব্যবসার হিসাব রাখুন
+                একদম ফ্রি sManager অ্যাপ-এ ‘বেচা-বিক্রি’ থেকে</p>
+              <h6>পুরো ব্যবসা এখন আপনার হাতের মুঠোয়</h6>
+              <button class="btn">ফ্রি রেজিষ্ট্রেশন</button>
+            </div>
+            <div class="col-md-6 carosoul-second-half">
+              <img src="images/carosoul/carosoul-3.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
         </div>
-        <div class="col-md-3">
-            <img class="img-fluid smanager-img" src="images/market.png" alt="">
-        </div>
-       </div>
-   </div>
-   <div class="container">
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="heading">sManager কেন?</h2>
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid" src="images/head.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img class="img-fluid smanager-img" src="images/sold.png" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid smanager-img" src="images/collection.png" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid smanager-img" src="images/loan.png" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid smanager-img" src="images/market.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container">
     <h2 class="heading">sManager এর সুবিধাসমূহ</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100 card-bg">
-            <h4 class="card-title d-flex justify-content-center">ব্যবসা পরিচালনা</h4>
+      <div class="col">
+        <div class="card h-100 card-bg">
+          <h4 class="card-title d-flex justify-content-center">ব্যবসা পরিচালনা</h4>
           <img src="images/usp-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p>সার্বক্ষণিক মনিটরিং সুবিধা </p>
-                <p>প্রতিদিন ২ ঘণ্টা সময় সাশ্রয় </p>
-                <p>ব্যবসার যাবতীয় ডাটা ব্যাকআপ সুবিধা</p>
-            </div>
-              </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 card-bg">
-            <h4 class="card-title d-flex justify-content-center">ডিজিটাল লোন</h4>
-     <img src="images/usp-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p>কম কাগজ-পত্রে লোন প্রসেসিং সুবিধা</p>
-                <p>কম সময়ের মধ্যে লোন প্রসেসিং</p>
-                <p>ঘরে বসেই লোন আবেদন, ব্যাংক-এ যাবার প্রয়োজন নেই</p>
-            </div>
-              </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 card-bg">
-            <h4 class="card-title d-flex justify-content-center">অনলাইন সেলস চ্যানেল</h4>
- <img src="images/usp-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p>মাত্র ৩ ধাপে শপ ওপেন</p>
-                <p>অনলাইন অর্ডার</p>
-                <p>লজিস্টিক ম্যনাজমেন্ট সুবিধা</p>
-            </div>
-            </div>
+          <div class="card-body">
+            <p>সার্বক্ষণিক মনিটরিং সুবিধা </p>
+            <p>প্রতিদিন ২ ঘণ্টা সময় সাশ্রয় </p>
+            <p>ব্যবসার যাবতীয় ডাটা ব্যাকআপ সুবিধা</p>
+          </div>
         </div>
       </div>
-   </div>
-   <div class="container smanager-user">   
-        <h2> একজন sManager ব্যবহারকারী</h2>
-   </div>
- <section style="background-color:#139842;">
-<div class="row">
-    <div class="col-md-6 smanager-user-detail">
+      <div class="col">
+        <div class="card h-100 card-bg">
+          <h4 class="card-title d-flex justify-content-center">ডিজিটাল লোন</h4>
+          <img src="images/usp-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>কম কাগজ-পত্রে লোন প্রসেসিং সুবিধা</p>
+            <p>কম সময়ের মধ্যে লোন প্রসেসিং</p>
+            <p>ঘরে বসেই লোন আবেদন, ব্যাংক-এ যাবার প্রয়োজন নেই</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card-bg">
+          <h4 class="card-title d-flex justify-content-center">অনলাইন সেলস চ্যানেল</h4>
+          <img src="images/usp-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>মাত্র ৩ ধাপে শপ ওপেন</p>
+            <p>অনলাইন অর্ডার</p>
+            <p>লজিস্টিক ম্যনাজমেন্ট সুবিধা</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container smanager-user">
+    <h2> একজন sManager ব্যবহারকারী</h2>
+  </div>
+  <section style="background-color:#139842;">
+    <div class="row">
+      <div class="col-md-6 smanager-user-detail">
         <h2>“sManager ব্যবহার করা সত্যিই সহজ”</h2>
-        <p>“ প্রতিদিনের সব ব্যবসার হিসাব-পত্র রাখা আগে বেশ ঝামেলার ছিল। কিন্তু এখন sManager অ্যাপ থাকায় সবকিছু সত্যিই খুব সহজ হয়ে গিয়েছে। এখন এক হাতেই সবকিছু ম্যানেজ করে ফেলি। ব্যবসা আসলেই </br> এখন হাতের মুঠোয় ,,</p>
-    </div>
-    <div class="col-md-6 smanager-user-img">
+        <p>“ প্রতিদিনের সব ব্যবসার হিসাব-পত্র রাখা আগে বেশ ঝামেলার ছিল। কিন্তু এখন sManager অ্যাপ থাকায় সবকিছু সত্যিই
+          খুব সহজ হয়ে গিয়েছে। এখন এক হাতেই সবকিছু ম্যানেজ করে ফেলি। ব্যবসা আসলেই </br> এখন হাতের মুঠোয় ,,</p>
+      </div>
+      <div class="col-md-6 smanager-user-img">
         <img src="images/testimonial.png" alt="">
+      </div>
     </div>
-</div>
- </section>
- <div class="container">
+  </section>
+  <div class="container">
     <h2 class="heading">sManager ডিজিটাল সল্যুশন</h2>
     <h5 style="text-align: center;">ব্যবসার জন্য প্রয়োজনীয় সফটওয়্যার ও হার্ডওয়্যার সল্যুশন</h5>
     <div class="row">
-        <div class="col-md-6">
-           <img src="images/product.png" alt=""> 
-        </div>
-        <div class="col-md-6">
-            <img src="images/product-2.png" alt="">
-        </div>
+      <div class="col-md-6">
+        <img src="images/product.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <img src="images/product-2.png" alt="">
+      </div>
     </div>
- </div>
- <div class="container">
+  </div>
+  <div class="container">
     <h2 class="heading">পার্টনার</h2>
-<div class="row">
-    <div class="col-md-3">
+    <div class="row">
+      <div class="col-md-3">
         <img class="partner-img" src="images/partner-1.png" alt="">
-     </div>
-    <div class="col-md-3">
+      </div>
+      <div class="col-md-3">
         <img class="partner-img" src="images/patner-2.png" alt="">
-    </div>
-    <div class="col-md-3">
+      </div>
+      <div class="col-md-3">
         <img class="partner-img" src="images/partner-3.png" alt="">
-    </div>
-    <div class="col-md-3">
+      </div>
+      <div class="col-md-3">
         <img class="partner-img" src="images/robi.png" alt="">
+      </div>
     </div>
-</div>
-<h2 class="heading">sManager-এ ব্যবসা হোক আজ থেকেই</h2>
-<h5 style="text-align: center;">ব্যবসা পরিচালনার জন্য প্রয়োজনীয় ফিচার-গুলোর ফ্রি</h5>
-<h5 style="text-align: center;">ট্রায়াল ব্যবহার করে দেখুন একমাসের জন্য । ব্যবসায় আনুন নতুন গতি ও সম্ভাবনা</h5>
-<div style="text-align: center;margin-top: 20px;margin-bottom: 40px;" class="last-btn">
-    <button class="btn">ফ্রি ট্রায়াল</button>
-</div>
- </div>
+    <h2 class="heading">sManager-এ ব্যবসা হোক আজ থেকেই</h2>
+    <h5 style="text-align: center;">ব্যবসা পরিচালনার জন্য প্রয়োজনীয় ফিচার-গুলোর ফ্রি</h5>
+    <h5 style="text-align: center;">ট্রায়াল ব্যবহার করে দেখুন একমাসের জন্য । ব্যবসায় আনুন নতুন গতি ও সম্ভাবনা</h5>
+    <div style="text-align: center;margin-top: 20px;margin-bottom: 40px;" class="last-btn">
+      <button class="btn">ফ্রি ট্রায়াল</button>
+    </div>
+  </div>
   <footer class="footer-section">
-       <div class="container footer-link ">
-        <div class="row ">
-            <div class="col-md-6 footer-first-link">
-                <a href="">Sheba.xyz</a>
-                <a href="">ক্যারিয়ার</a>
-                <a href="">কনটাক্ট</a>
-                </div>
-            <div class="col-md-6 footer-second-link d-flex justify-content-end">
-                <a href=""><img src="images/icon/facebook.png" alt=""> </a>
-                <a href=""><img src="images/icon/instagram.png" alt=""></a>
-                <a href=""><img src="images/icon/linkedin.png" alt=""></a>
-                <a href=""><img src="images/icon/youtube.png" alt=""></a>
-            </div>
+    <div class="container footer-link ">
+      <div class="row ">
+        <div class="col-md-6 footer-first-link">
+          <a href="">Sheba.xyz</a>
+          <a href="">ক্যারিয়ার</a>
+          <a href="">কনটাক্ট</a>
         </div>
-       </div>
-       <div class="container footer-second-section">
-           <div class="row">
-               <div class="col-md-3 ">
-                  <h5 style="margin-left: 25px;">ফিচার সমূহ</h5>
-                  <ul>
-                      <a href="">  <li>বেচা বিক্রি </li> </a>
-                      <a href=""><li>ডিজিটাল কালেকশন </li> </a>
-                      <a href="">  <li>সহজ লোণ </li> </a>
-                      <a href=""><li>অনলাইন বিক্রি </li> </a>
-                  </ul> 
-               </div>
-               <div class="col-md-3">
-                   <h5 style="margin-left: 25px;">কনটাক্ </h5>
-                   <ul>
-                       <a href=""><li> ১৬৫১৬</li> </a>
-                    </ul>
-               </div>
-               <div class="col-md-3">
-                   <h5 style="margin-left: 25px;">সাপোর্ট</h5>
-                   <ul>
-                       <a href=""><li>২৪/৭ হেল্প সেন্টার </li> </a>
-                       <a href=""><li>কল সেন্টার </li> </a>
-                    <a href=""><li>পয়েন্ট অব সেলস সফটওয়্যার </li></a>
-                    <a href=""><li>ডেলিভারি</li> </a>
-                </ul>
-               </div>
-               <div class="col-md-3">
-                   <h5 style="margin-left: 25px;">sManager</h5>
-                   <ul>
-                       <a href=""><li>কনটাক্ট</li></a>
-                    <a href=""><li>স্ট্র্যাটেজিক পার্টনার প্রোগ্রাম </li> </a>
-                    <a href=""><li>অ্যাপ ডেভেলপার </li> </a>
-                    <a href=""><li>ইনভেন্টর</li> </a>
-                   </ul>
-               </div>
-           </div>
-       </div>
-       <div class="container footer-third-section">
-           <h5>© ২০১৯ সেবা প্ল্যাটফর্ম লিমিটেড</h5>
-       </div>
-</footer>
+        <div class="col-md-6 footer-second-link d-flex justify-content-end">
+          <a href=""><img src="images/icon/facebook.png" alt=""> </a>
+          <a href=""><img src="images/icon/instagram.png" alt=""></a>
+          <a href=""><img src="images/icon/linkedin.png" alt=""></a>
+          <a href=""><img src="images/icon/youtube.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-second-section">
+      <div class="row">
+        <div class="col-md-3 ">
+          <h5 style="margin-left: 25px;">ফিচার সমূহ</h5>
+          <ul>
+            <a href="">
+              <li>বেচা বিক্রি </li>
+            </a>
+            <a href="">
+              <li>ডিজিটাল কালেকশন </li>
+            </a>
+            <a href="">
+              <li>সহজ লোণ </li>
+            </a>
+            <a href="">
+              <li>অনলাইন বিক্রি </li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 style="margin-left: 25px;">কনটাক্ট</h5>
+          <ul>
+            <a href="">
+              <li> ১৬৫১৬</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 style="margin-left: 25px;">সাপোর্ট</h5>
+          <ul>
+            <a href="">
+              <li>২৪/৭ হেল্প সেন্টার </li>
+            </a>
+            <a href="">
+              <li>কল সেন্টার </li>
+            </a>
+            <a href="">
+              <li>পয়েন্ট অব সেলস সফটওয়্যার </li>
+            </a>
+            <a href="">
+              <li>ডেলিভারি</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 style="margin-left: 25px;">sManager</h5>
+          <ul>
+            <a href="">
+              <li>কনটাক্ট</li>
+            </a>
+            <a href="">
+              <li>স্ট্র্যাটেজিক পার্টনার প্রোগ্রাম </li>
+            </a>
+            <a href="">
+              <li>অ্যাপ ডেভেলপার </li>
+            </a>
+            <a href="">
+              <li>ইনভেন্টর</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-third-section">
+      <h5>© ২০১৯ সেবা প্ল্যাটফর্ম লিমিটেড</h5>
+    </div>
+  </footer>
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  
 </body>
+
 </html>
